@@ -71,3 +71,9 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ```bash
 ./scripts/restore-table.sh
 ```
+
+### create point-in-time backup
+
+```bash
+./scripts/create-point-in-time-backup.sh
+```
