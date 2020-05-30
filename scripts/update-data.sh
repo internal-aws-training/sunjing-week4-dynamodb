@@ -6,8 +6,8 @@ source scripts/common.sh
 
 aws dynamodb update-item \
     --table-name "${TABLE_NAME}" \
-    --key file://update-item-key.json \
+    --key file://data/update-item-key.json \
     --update-expression "SET memberName = :memberName" \
-    --expression-attribute-values file://attribute-values.json  \
+    --expression-attribute-values file://data/attribute-values.json  \
     --return-values ALL_NEW \
     --region ap-southeast-1

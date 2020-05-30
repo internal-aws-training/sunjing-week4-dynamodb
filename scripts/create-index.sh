@@ -7,5 +7,5 @@ source scripts/common.sh
 aws dynamodb update-table \
     --table-name "${TABLE_NAME}" \
     --attribute-definitions AttributeName="${ATTRIBUTES_MEMBER_NAME}",AttributeType=S \
-    --global-secondary-index-updates file://global-index.json\
+    --global-secondary-index-updates file://data/global-index.json\
     --region ap-southeast-1
