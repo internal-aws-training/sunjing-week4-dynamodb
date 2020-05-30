@@ -1,0 +1,16 @@
+{
+  "name": "sunjing-week4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "sun jing",
+  "license": "MIT",
+  "private": true,
+  "repository": "",
+  "scripts": {
+    "local": "node src/index.local.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.645.0"
+  }
+}

@@ -3,7 +3,16 @@ const AWS = require("aws-sdk");
 const REGION = process.env.REGION;
 AWS.config.update({region: REGION});
 
-const ddb = new AWS.DynamoDB({apiVersion: "2012-08-10"});
+const localOptions = {
+  apiVersion: "2012-08-10",
+  endpoint: "http://localhost:4566"
+};
+const prodOptions = {
+  apiVersion: "2012-08-10"
+};
+
+const options = process.env.APP_ENV = "local" ? localOptions : prodOptions;
+const ddb = new AWS.DynamoDB(options);
 
 const putItemToDDB = async () => {
   const params = {

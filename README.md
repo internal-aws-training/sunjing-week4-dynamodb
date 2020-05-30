@@ -19,6 +19,35 @@ Step2: Deploy
 ./delivery/deploy.sh deploy
 ```
 
+## Local start
+
+Use `pip install localstack` to install local stack if you don't have it.
+Use `awscli-local` to install local cli if you don't have it.
+
+Start local stack server:
+
+```bash
+localstack start
+```
+
+Create DDB in localstack:
+
+```bash
+
+```
+
+Run lambda in local
+
+```bash
+export TABLE_NAME=sunjing
+export REGION=ap-southeast-1
+export APP_ENV=local
+
+yarn local
+```
+
+
+
 ## Practice
 
 ### create table
