@@ -30,8 +30,14 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ./scripts/get-data.sh
 ```
 
-## query from table by key
+### query from table by key
 
 ```bash
 ./scripts/query-data.sh
+```
+
+### scan table with filter
+
+```bash
+./scripts/scan-table.sh
 ```
