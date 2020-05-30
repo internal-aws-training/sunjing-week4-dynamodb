@@ -33,7 +33,7 @@ localstack start
 Create DDB in localstack:
 
 ```bash
-
+./delivery/start-local.sh
 ```
 
 Run lambda in local
