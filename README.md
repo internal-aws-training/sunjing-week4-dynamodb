@@ -41,3 +41,9 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ```bash
 ./scripts/scan-table.sh
 ```
+
+### create global secondary index on memberName
+
+```bash
+./scripts/create-index.sh
+```
