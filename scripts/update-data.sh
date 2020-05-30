@@ -9,4 +9,5 @@ aws dynamodb update-item \
     --key file://update-item-key.json \
     --update-expression "SET memberName = :memberName" \
     --expression-attribute-values file://attribute-values.json  \
-    --return-values ALL_NEW
+    --return-values ALL_NEW \
+    --region ap-southeast-1

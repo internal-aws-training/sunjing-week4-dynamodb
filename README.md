@@ -19,7 +19,6 @@
 
 ### update item
 
-TODO: not execute this one since "is not authorized to perform: ..."
 ```bash
 ./scripts/update-data.sh
 ```
