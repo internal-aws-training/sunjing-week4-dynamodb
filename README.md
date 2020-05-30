@@ -77,3 +77,11 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ```bash
 ./scripts/create-point-in-time-backup.sh
 ```
+
+### restore table by point-in-time
+
+Should execute the comment code first to find out the `EarliestRestorableDateTime` and `LatestRestorableDateTime`.
+
+```bash
+./scripts/restore-table-to-point-in-time.sh
+```
