@@ -29,3 +29,9 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ```bash
 ./scripts/get-data.sh
 ```
+
+## query from table by key
+
+```bash
+./scripts/query-data.sh
+```
