@@ -55,10 +55,19 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ```
 
 ### delete table
-TODO
+
+```bash
+./scripts/delete-table.sh
+```
 
 ### create backup
 
 ```bash
 ./scripts/create-backup.sh
 ``` 
+
+### restore table from backup
+
+```bash
+./scripts/restore-table.sh
+```
