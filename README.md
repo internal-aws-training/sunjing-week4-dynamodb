@@ -1,5 +1,26 @@
 # sunjing-week4-dynamodb
 
+The code is hardcode to CRUD one item into/from DDB.
+
+## Deploy
+
+Dependencies:
+The DDB must exist.
+
+Step1: Package cloudformation template
+
+```bash
+./delivery/deploy.sh
+```
+
+Step2: Deploy
+
+```bash
+./delivery/deploy.sh deploy
+```
+
+## Practice
+
 ### create table
 
 ```bash
