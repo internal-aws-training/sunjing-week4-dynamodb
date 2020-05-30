@@ -47,3 +47,14 @@ TODO: not execute this one since "is not authorized to perform: ..."
 ```bash
 ./scripts/create-index.sh
 ```
+
+### auery item by memberName(index)
+
+```bash
+./scripts/query-data-by-index.sh
+```
+
+### delete table
+TODO
+
+### 
