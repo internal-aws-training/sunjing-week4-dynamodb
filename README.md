@@ -11,8 +11,21 @@
 ```bash
 ./scripts/update-table.sh
 ```
-### Put 6 items into table
+### put 6 items into table
 
 ```bash
 ./scripts/insert-data.sh
+```
+
+### update item
+
+TODO: not execute this one since "is not authorized to perform: ..."
+```bash
+./scripts/update-data.sh
+```
+
+### read item from table by key
+
+```bash
+./scripts/get-data.sh
 ```
