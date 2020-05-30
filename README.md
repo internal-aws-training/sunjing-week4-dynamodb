@@ -5,3 +5,9 @@
 ```bash
 ./scripts/create-table.sh
 ```
+
+### update table
+
+```bash
+./scripts/update-table.sh
+```
