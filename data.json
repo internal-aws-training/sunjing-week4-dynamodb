@@ -1,0 +1,139 @@
+{
+  "sunjing": [
+    {
+      "PutRequest": {
+        "Item":  {
+          "projectName": {
+            "S": "bolt"
+          },
+          "projectType": {
+            "S": "sold"
+          },
+          "memberName": {
+            "S": "cute cat"
+          },
+          "startDate": {
+            "S": "2020-05-01"
+          },
+          "application": {
+            "M": {
+              "applicantsCount": {
+                "N": "5"
+              },
+              "applicants": {
+                "L":  [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "applicant name"
+                      },
+                      "age": {
+                        "N": "20"
+                      },
+                      "inspect": {
+                        "BOOL": true
+                      },
+                      "hobbies": {
+                        "SS": ["running", "swimming"]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item":  {
+          "projectName": {
+            "S": "bolt"
+          },
+          "projectType": {
+            "S": "rent"
+          },
+          "memberName": {
+            "S": "cute dog"
+          },
+          "startDate": {
+            "S": "2020-05-02"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item":  {
+          "projectName": {
+            "S": "bolt"
+          },
+          "projectType": {
+            "S": "buy"
+          },
+          "memberName": {
+            "S": "cute mouse"
+          },
+          "startDate": {
+            "S": "2020-05-03"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "projectName": {
+            "S": "ignite"
+          },
+          "projectType": {
+            "S": "rent"
+          },
+          "memberName": {
+            "S": "cat"
+          },
+          "startDate": {
+            "S": "2020-05-04"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item":  {
+          "projectName": {
+            "S": "ignite"
+          },
+          "projectType": {
+            "S": "locke"
+          },
+          "memberName": {
+            "S": "dog"
+          },
+          "startDate": {
+            "S": "2020-05-05"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "projectName": {
+            "S": "ignite"
+          },
+          "projectType": {
+            "S": "buy"
+          },
+          "memberName": {
+            "S": "pig"
+          },
+          "startDate": {
+            "S": "2020-05-06"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -11,3 +11,8 @@
 ```bash
 ./scripts/update-table.sh
 ```
+### Put 6 items into table
+
+```bash
+./scripts/insert-data.sh
+```
