@@ -11,6 +11,6 @@
     "local": "node src/index.local.js"
   },
   "devDependencies": {
-    "aws-sdk": "^2.645.0"
+    "aws-sdk": "^2.814.0"
   }
 }
